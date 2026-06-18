@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Masuda</title>
+
+<style>
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(45deg,#ffb6c1,#ff69b4,#ff1493);
+overflow:hidden;
+}
+
+h1{
+font-size:60px;
+color:white;
+text-align:center;
+animation:zoom 2s infinite alternate;
+text-shadow:0 0 20px white;
+}
+
+@keyframes zoom{
+from{transform:scale(1);}
+to{transform:scale(1.2);}
+}
+
+.balloon{
+position:absolute;
+font-size:40px;
+animation:float 6s linear infinite;
+}
+
+@keyframes float{
+from{transform:translateY(100vh);}
+to{transform:translateY(-100vh);}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>🎂 Happy Birthday Masuda 🎂</h1>
+
+<div class="balloon" style="left:10%;">🎈</div>
+<div class="balloon" style="left:30%; animation-delay:1s;">🎈</div>
+<div class="balloon" style="left:50%; animation-delay:2s;">🎈</div>
+<div class="balloon" style="left:70%; animation-delay:3s;">🎈</div>
+<div class="balloon" style="left:90%; animation-delay:4s;">🎈</div>
+
+</body>
+</html>
